@@ -106,3 +106,226 @@
 </S:Envelope>
 
 22:04:26.611 [main] ERROR com.ebay.sdk.ApiCall - com.sun.xml.ws.client.ClientTransportException: HTTP transport error: javax.net.ssl.SSLException: Received fatal alert: protocol_version
+22:18:29.858 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+22:49:18.023 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+22:49:19.397 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+22:49:25.772 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+22:49:25.974 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=2 492
+22:49:25.975 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#r^0#I^3#p^1#f^0#t^H4sIAAAAAAAAAOVYW2wUVRju9GawUgQEuYbNiEopO3tmZq8Du7LdFllCL7ClFAyBMzNn2nFnZ7ZzZmiXNFoqMd5IfDAmJoiEhIAhERU0wQAqXh54gBdDIlpJLFYeDLxw9X52upRtJaXQjTZxXzZzzn/7vvOf/z/ngJ7ySYtfXPni9cnUA8V7ekBPMUWxFWBSeVl1ZUnxnLIikCdA7elZ2FPaW3JxGYYpLS2sRTht6Bi5ulKajgVnMEzbpi4YEKtY0GEKYcGShES0frXAMUBIm4ZlSIZGu+K1YVoSAxyQkMjxiIcg4CWj+i2bzUaY9oocFwJiiFd4WVF8ZBpjG8V1bEHdCtMc4Hg38LtZbzMbErxBwcczPuDbSLtakIlVQyciDKAjTrSCo2vmhTp6pBBjZFrECB2JR1ckGqPx2rqG5mWePFuRHA0JC1o2Hv4VM2TkaoGajUZ3gx1pIWFLEsKY9kQGPQw3KkRvBXMf4TtM8wEQ8gYliAJskPUDpSBUrjDMFLRGjyM7ospuxREVkG6pVuZujBI2xGeRZOW+GoiJeK0r+7fGhpqqqMgM03U10Q3RpiY60oZ0Fcoo6W5G2HInalrdIghAxR8EIYJIZrlQCOScDFrKUTzCS8zQZTVLGHY1GFYNIhGjkbzwebwQoUa90YwqVjaaPDmOzfHnDQU2Zhd0cAVtq13PrilKERJczufd2R/StixTFW0LDVkYOeHQE6ZhOq3K9MhJJw9zqdOFw3S7ZaUFj6ezs5Pp5BnDbPNwALCe1vrVCakdpSB9Sza717F6dwW36kCRENHEqmBl0iSWLpKnJAC9jY54Ac+HvDneh4cVGTn6j4E8zJ7hu6FQuwOKQeSVYECCUiDABwqxOSK5/PRkw0AizLhT0EwiK61BCbklkmZ2CpmqLPA+heODCnLL/pDi9oYUxS36ZOJMQQggJIpSKPh/2SNjzfIEkkxkFS7NC5Hi9au8iXZYF631BTs31K9v0NbwvoSva82K6nXNbXpNnT8WM9WWrdtqk23hsW6EO4KPaSphppn4LywB2b0+XhJWGthC8rjgJSQjjZoMTZUyE2uBeVNugqaVqbEz5DuBNI38jQtqNJ2OF7BYFwLkPRSK+8Nc4Ab17zenO6LC2aSdWKiy+pgYgGmVyfYfRjJSHgOScwcZyu51dbMTtWtUwZyQR7QzTJtNcoJEIpOj35iVVFLIGdLK5LGrDDZKAmLsKuRaIduSdV+OnI7MEDbVtnYL35PPrvGQItpacuwqMoLauFJUJbeLCZWgBOkgZFUevBYwDm4Gb5UYE2HDNsmNiGnMnpSbjSTSyeHDMg1NQ2YLO+6ym0rZFhQ1NNHqbwFqkQqHn4xKe6mB/xwX6w/6AwGO5flxYZOcs8/midZBCtk17+Hy4xn+ChMpcn5sL3Uc9FJHiykKBICbrQZV5SXrSkseojGpOwyGuiwaXYwKFYaUPB1atomYJMqkoWoWl1PquW+kG3nvP3s2gVlDL0CTStiKvOcgMO/2TBk75dHJHA/8rJcNeYM+fiN47PZsKTuz9JH3BmZ19NHbrxp9y2fv9Szevmnp7Btg8pAQRZUVkWQtinX0B6adib314Vczop/uOH1i35Zz6u6IeFlYVLxkrjl/bmTJxXe6X2q48vzNvcwTGyqqkn0/vz7ltdZFybNntv3ZHZvqba/i+mfPoAaqMsyCF05eXj7w4O5rPEWf7RZ6d3xOPxX54dClE/u/uPLH9fkv/3q+/3ClUflTxTrPvMpX3r00fdXa7wYWfB+uvnhgx7ne1iMP9x989dTBbgNEo0diH6Nru6a1dEz9SP/2uYFjtfHl2ypWY/TX2Tnrk8/s7Nuy7/SumxdOpfSOymqkzzx9fHr4QFXlGx07e36sfH/picdPtj/99uHF3MqjR692vXmocz+Yv/DCB2c8A58toX4//8kvv339JXqyYt+x+MnBZfwbBlonwpkTAAA=</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+22:49:27.538 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Response Message: Length=731
+22:49:27.538 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header/>
+ <soapenv:Body>
+  <soapenv:Fault>
+   <faultcode xmlns:ns1="http://xml.apache.org/axis/">ns1:FailedCheck</faultcode>
+   <faultstring>Auth token is invalid.</faultstring>
+   <faultactor>http://www.ebay.com/ws/websvc/eBayAPI</faultactor>
+   <detail>
+    <FaultDetail>
+     <ErrorCode>931</ErrorCode>
+     <Severity>Error</Severity>
+     <DetailedMessage>Validation of the authentication token in API request failed.</DetailedMessage>
+    </FaultDetail>
+   </detail>
+  </soapenv:Fault>
+ </soapenv:Body>
+</soapenv:Envelope>
+
+22:49:27.772 [main] ERROR com.ebay.sdk.ApiCall - com.ebay.sdk.SdkSoapException: Validation of the authentication token in API request failed.
+22:51:57.263 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+22:51:58.513 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+22:52:04.746 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+22:52:04.941 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=596
+22:52:04.942 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#f^0#r^1#p^3#I^3#t^Ul4xMF84OjhBMEEwNzFFQzdCRjNGQjY1QzQ2MENDRTM4MjFBREU1XzNfMSNFXjEyODQ=</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+22:52:07.352 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Response Message: Length=731
+22:52:07.352 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header/>
+ <soapenv:Body>
+  <soapenv:Fault>
+   <faultcode xmlns:ns1="http://xml.apache.org/axis/">ns1:FailedCheck</faultcode>
+   <faultstring>Auth token is invalid.</faultstring>
+   <faultactor>http://www.ebay.com/ws/websvc/eBayAPI</faultactor>
+   <detail>
+    <FaultDetail>
+     <ErrorCode>931</ErrorCode>
+     <Severity>Error</Severity>
+     <DetailedMessage>Validation of the authentication token in API request failed.</DetailedMessage>
+    </FaultDetail>
+   </detail>
+  </soapenv:Fault>
+ </soapenv:Body>
+</soapenv:Envelope>
+
+22:52:07.536 [main] ERROR com.ebay.sdk.ApiCall - com.ebay.sdk.SdkSoapException: Validation of the authentication token in API request failed.
+22:54:46.986 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+22:54:48.219 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+22:54:53.874 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+22:54:54.038 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=3 096
+22:54:54.038 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#r^0#I^3#p^3#f^0#t^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</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+22:54:55.301 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Response Message: Length=731
+22:54:55.302 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header/>
+ <soapenv:Body>
+  <soapenv:Fault>
+   <faultcode xmlns:ns1="http://xml.apache.org/axis/">ns1:FailedCheck</faultcode>
+   <faultstring>Auth token is invalid.</faultstring>
+   <faultactor>http://www.ebay.com/ws/websvc/eBayAPI</faultactor>
+   <detail>
+    <FaultDetail>
+     <ErrorCode>931</ErrorCode>
+     <Severity>Error</Severity>
+     <DetailedMessage>Validation of the authentication token in API request failed.</DetailedMessage>
+    </FaultDetail>
+   </detail>
+  </soapenv:Fault>
+ </soapenv:Body>
+</soapenv:Envelope>
+
+22:54:55.485 [main] ERROR com.ebay.sdk.ApiCall - com.ebay.sdk.SdkSoapException: Validation of the authentication token in API request failed.
+22:57:54.969 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+22:57:56.222 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+22:58:02.128 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+22:58:02.302 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=3 096
+22:58:02.303 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#r^0#I^3#p^3#f^0#t^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</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+22:58:03.465 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Response Message: Length=731
+22:58:03.465 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header/>
+ <soapenv:Body>
+  <soapenv:Fault>
+   <faultcode xmlns:ns1="http://xml.apache.org/axis/">ns1:FailedCheck</faultcode>
+   <faultstring>Auth token is invalid.</faultstring>
+   <faultactor>http://www.ebay.com/ws/websvc/eBayAPI</faultactor>
+   <detail>
+    <FaultDetail>
+     <ErrorCode>931</ErrorCode>
+     <Severity>Error</Severity>
+     <DetailedMessage>Validation of the authentication token in API request failed.</DetailedMessage>
+    </FaultDetail>
+   </detail>
+  </soapenv:Fault>
+ </soapenv:Body>
+</soapenv:Envelope>
+
+22:58:03.652 [main] ERROR com.ebay.sdk.ApiCall - com.ebay.sdk.SdkSoapException: Validation of the authentication token in API request failed.
+23:03:08.246 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+23:03:09.468 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+23:03:15.222 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+23:03:15.390 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=2 492
+23:03:15.390 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#r^0#I^3#p^1#f^0#t^H4sIAAAAAAAAAOVYeWwUVRjv9iLl8AKxkcN1PCI0Mzsze87Ibtx221DSC3apBWngzcybduzszDjvTbsLJNaqKJgo4kGMB5VEE5B4YowCxogIgfgfXohGg1HOqCQEFP/w7XYp20pKoZvYxP1nM+991+/3vu97B9tbXjF3zfw1Z6e4JhT397K9xS4XN4mtKC+ruqak+OayIjZPwNXfe3tvaV/J0XkIJHVLXASRZRoIulNJ3UBidjBMObYhmgBpSDRAEiIRy2I82tgg8gwrWraJTdnUKXd9LExxvDcg+ASOlYDE+gSBjBoXbCbMMKUKPOBgkJd5KLACUMg8Qg6sNxAGBg5TPMt7aTZAc74Ez4osL/pCDOfnl1LuVmgjzTSICMNSkWy4YlbXzot15FABQtDGxAgVqY/WxZuj9bHapsQ8T56tSI6HOAbYQUO/akwFuluB7sCR3aCstBh3ZBkiRHkiAx6GGhWjF4K5ivCzVMsqJ0El5A2E5CCvynxBqKwz7STAI8eRGdEUWs2KitDAGk5fjlHChnQ/lHHuq4mYqI+5M38LHaBrqgbtMFVbHV0SbWmhIh3Q0IACu+gERJiOV7fREhsEaiDECgSRwvGCwOacDFjKUTzMS41pKFqGMORuMnE1JBHDIbxwgujP44UINRvNdlTFmWjy+eMv8OfzLs0s6MAKOrjTyKwpTBIS3NnPy7M/qI2xrUkOhoMWhk9k6QlTwLI0hRo+mc3DXOqkUJjqxNgSPZ6enh6mx8uYdoeHZ1nO09bYEJc7YRJQOdlMraeQdnkFWstCkSHRRJqI0xaJJUXylARgdFARH+v1Cr4c70PDigwf/ddAHmbP0GooWHV4ZW+ADbKKrASFkBwoRHVEcgnqycQBJZCmk8DugtjSgQxpmeSZk4S2pohev8p7QyqklYCg0j5BVWnJrxBnKoQshJIkC6H/S5GMNs3jULYhLlieFyTHGxf44p2gNhrzh3qWNN7bpC/0+uP+1MK6qsWJDqO6NlBTY2ut3StjXR3h0VbCJcHX6BphJkH8F5KATK2PnYT5JsJQGRO8uGxasMXUNTk9vhbYaystwMbpaidNvuNQ18nfmKBGLau+cN26ICCvoFFcHebC7lD/we50SVQok7TjC1VGHxEDwNKYzP7DyGbSYwJy8PBkap0ML89G7R5BcFDIIzlppsMhOUEiUcjZb9RKGmnkDNnKlNGrDGyUBMToVcjFQnFkfFWOsjsyQ9jUOjoxuiKfqbGQIjl61+hVFAj0MaWoRq4X4ypBCdIByJoycC9gsrgZ1C0zNkSmY5MrEdOcOSonzC5okMMHtk1dh3YrN+a2m0w6GEg6HG/9twC9SAP5J6PSPtfRcYCLC4QCwSAvBEJjwiZnzz7Lx9sOUshd8wpuP56h7zCRouyP63PtYvtcHxa7XOROQ3NV7JzyksWlJZMpRPoOg4ChSGaK0YDKkJZnAOzYkOmCaQtodnG5Szt0UD6X9wLU385WDr4BVZRwk/IehNiZF2fKuGtvmsJ72QDnI+TxvtBS9raLs6Xc9NJpa7Uftk98PrIvWpd8ccH1d8zYXbr/HXbKoJDLVVZE0rVoVergr1+c/eqtuT+tS6Nbzu+qTG5Ltr7/8NT2n3vuOQ2+3RlpDm1oeNuRTpw/fpf+hr+an1deu/n3jTz+OBrr3nTn1pPV0Xf/nvDNmenTHtzKP/LBzoanPt90LDa1ovu9cPBI+oWU57MNu+c89NrTs9EB9VTFGf7w+rUb203pj639H/HTayfy9504tm5y5QN79t14qGjWMyvf/JJ5rpKfOYs2t685KL2+N93HfNJ1wy/THt358o4nVpz80S2s32vtXfldg3Bk+7L9e76f9OemGW3b8OqXHjMXxZUVs6Gvqf3AYX31dcWnwvSOV0+dfvLc18d9m4/9tuxwSxu3Zdbjd7+Srkos22j5/gKfbnn21lUDy/gPBMHpzpsTAAA=</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+23:03:16.957 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Response Message: Length=731
+23:03:16.957 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header/>
+ <soapenv:Body>
+  <soapenv:Fault>
+   <faultcode xmlns:ns1="http://xml.apache.org/axis/">ns1:FailedCheck</faultcode>
+   <faultstring>Auth token is invalid.</faultstring>
+   <faultactor>http://www.ebay.com/ws/websvc/eBayAPI</faultactor>
+   <detail>
+    <FaultDetail>
+     <ErrorCode>931</ErrorCode>
+     <Severity>Error</Severity>
+     <DetailedMessage>Validation of the authentication token in API request failed.</DetailedMessage>
+    </FaultDetail>
+   </detail>
+  </soapenv:Fault>
+ </soapenv:Body>
+</soapenv:Envelope>
+
+23:03:17.149 [main] ERROR com.ebay.sdk.ApiCall - com.ebay.sdk.SdkSoapException: Validation of the authentication token in API request failed.
+23:07:59.593 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+23:08:00.876 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+23:08:06.855 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+23:08:07.023 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=2 492
+23:08:07.024 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#f^0#r^0#p^1#I^3#t^H4sIAAAAAAAAAOVYe2wURRjv9YUVKoSHPDXnIonQ7O7s7t31dqEXry8o9AV3lIIKmdudu663j2N3tr0jUUtNCATDH8YEiERrojUqGCWxBAiagBH1LwMFE6NEg5EGkYgJSEI0zl2Pcq2kFHqJTbx/Ljvzfd98v998j5kB3aVly3as2vFnuWtKYW836C50ubipoKy0pOKRosIFJQUgR8DV2/1kd3FP0eAKG+paQlqH7IRp2Mid1DXDljKDVZRjGZIJbdWWDKgjW8KyFAo2NUo8A6SEZWJTNjXK3VBbRYm8HPVAL4eEiOLzyl4yaty2GTarKAj8oo9XhKhHBAjw6XnbdlCDYWNo4CqKB7xAAx/NecI8kEClxImMx8NtotxtyLJV0yAiDKACGXeljK6V4+vYrkLbRhYmRqhAQ7A+1BJsqK1rDq9gc2wFsjyEMMSOPfKrxlSQuw1qDhp7GTsjLYUcWUa2TbGBoRVGGpWCt515APczVHNRUYYCD3lR4X1+6MsLlfWmpUM8th/pEVWhoxlRCRlYxal7MUrYiDyPZJz9aiYmGmrd6b+1DtTUqIqsKqquOrgx2NpKBWLIUKGC4nQY2ZgOVbfTEVAJoz4/EAkiheNFEWQXGbKUpXjUKjWmoahpwmx3s4mrEfEYjeCFEyVvDi9EqMVosYJRnPYmlz8+y58gEjn29g46uMNI7ynSCQnuzOe92R/WxthSIw5GwxZGT2ToISmTSKgKNXoyE4fZ0EnaVVQHxgmJZbu6upgugTGtGMsDwLHtTY0huQPpkMrKpnM9aav3VqDVDBQZEU1blXAqQXxJkjglDhgxKuABgiB6sryPdCswevRfAzmY2ZHZkK/sUFDUi0TAV3pljvPKfD6yI5ANUDbtB4rAFK1DK45wQoMyomUSZ46OLFWRBG+UF/xRRCs+MUp7xGiUjngVslgUIYBQJCKL/v9Lkow3zENIthDOW5znJcabVntCHbAuWOv1d21s2tCsrRW8IW9ybX3F+nDMqK7z1dRYalvnttp4rGq8mXBX8DWaSpgJk/XzSUA61ydOwirTxkiZELyQbCZQq6mpcmpybbBgKa3QwqlqJ0W+Q0jTyN+EoAYTiYb8Veu8gLyPQvFgmPPbof6D7nRXVHY6aCcXqrS+TQzAhMqk+w8jmzprQnLwYNO5Toa3ZLx2jyE4LMRGnBQTc0hMEE8UcvYbt5JKCjlDWpkyfpWhRklAjF+FXCwUR8YPtFCmIzOETTXWge37WjM5EVIijhYfv4qCoDahEFXJ9WJSBShBOgRZVYbuBUwGN2N3yoyFbNOxyJWIaUkflcNmHBnk8IEtU9OQ1cZNuOzquoNhREOTrf7moRapMPdkVNzjGpwEuDif31dZKfCCOCFscubss2WydZB8ds37uP2wI99hAgWZH9fjOgF6XEcLXS5QCWiuAiwtLVpfXDSNskndYWxoKBEzyagwypCSZ0DsWIiJo1QCqlZhqUv9bkC+mfMC1PscmDf8BlRWxE3NeRACi+7MlHDT55bzAvBxHkJeJSduAovvzBZzjxbPrhig2HVff391z3HOpP96ec7i5V3XQfmwkMtVUkDCtcDZdf3dp3fe6HnGP//KmjNrhBZ0eP9XvS0/n1zZeuHs8nf2vvbT5R9/2P6xf+DAlNP8nv5fv7nIlQ/+7Vs+/VLrqatHHjp8vG3nt/tu+j76VD+Eb7z1xZXg43NfeOrYQf293QtdnY3TPt81AH8P4fOfxQvPz9999ksvdXT1s/GWws369O2LSotvvX6k9uIbrpnGh8mHO4+dbm89u5td17dtZrlv6f4ZfZcP3fpFWWStPEDP8iYX15/rW9IPZgzG+s68z39ibG1fcuHCJbOxeO+1/qULu+fNOVm2Xvzt1UP6MtxPndLCb7544+A141xHomfBB29vZme/UlTSsG8rfUI79cdjVs8T13ZueGnWAd+toW38B51PkLCbEwAA</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+23:08:08.039 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Response Message: Length=731
+23:08:08.039 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header/>
+ <soapenv:Body>
+  <soapenv:Fault>
+   <faultcode xmlns:ns1="http://xml.apache.org/axis/">ns1:FailedCheck</faultcode>
+   <faultstring>Auth token is invalid.</faultstring>
+   <faultactor>http://www.ebay.com/ws/websvc/eBayAPI</faultactor>
+   <detail>
+    <FaultDetail>
+     <ErrorCode>931</ErrorCode>
+     <Severity>Error</Severity>
+     <DetailedMessage>Validation of the authentication token in API request failed.</DetailedMessage>
+    </FaultDetail>
+   </detail>
+  </soapenv:Fault>
+ </soapenv:Body>
+</soapenv:Envelope>
+
+23:08:08.220 [main] ERROR com.ebay.sdk.ApiCall - com.ebay.sdk.SdkSoapException: Validation of the authentication token in API request failed.

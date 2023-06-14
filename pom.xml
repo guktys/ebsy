@@ -55,7 +55,11 @@
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.github.harishb2k.easy/helper -->
 
-
+        <dependency>
+            <groupId>xalan</groupId>
+            <artifactId>xalan</artifactId>
+            <version>2.7.1</version>
+        </dependency>
 
         <dependency>
             <groupId>com.ebay</groupId>
@@ -120,6 +124,18 @@
             <scope>system</scope>
             <systemPath>${basedir}/LIBS/http.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>com.github.lespaul361</groupId>
+            <artifactId>ebaysdkcore</artifactId>
+            <version>939</version>
+        </dependency>
+      <dependency>
+        <groupId>com.ebay.auth</groupId>
+        <artifactId>ebay-oauth-java-client</artifactId>
+        <version>1.1.8</version>
+    </dependency>
+
+
 
     </dependencies>
     <build>
