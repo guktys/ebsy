@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="activation">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/activation.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/FastInfoset.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/http.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jakarta-oro-2.0.8.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jaxb-api.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jaxb-impl.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jaxws-api.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jaxws-rt.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jaxws-tools.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jsr173_api.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jsr181-api.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jsr250-api.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/log4j-1.2.16.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/mimepull.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/resolver.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/saaj-api.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/saaj-impl.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/serializer.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/sjsxp.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/slf4j-log4j12-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/stax-ex.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/streambuffer.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/xalan.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jaxb-xjc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/ebaysdkjava1131/lib/externalLib/jaxb-xjc.jar!/1.0" />
+    </SOURCES>
+  </library>
+</component>

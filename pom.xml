@@ -7,10 +7,9 @@
     <groupId>org.example</groupId>
     <artifactId>untitled</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <properties>
-        <maven.compiler.source>6</maven.compiler.source>
-        <maven.compiler.target>6</maven.compiler.target>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
@@ -125,6 +124,14 @@
             <systemPath>${basedir}/LIBS/http.jar</systemPath>
         </dependency>
         <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>attributes</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/LIBS/http.jar</systemPath>
+        </dependency>
+
+        <dependency>
             <groupId>com.github.lespaul361</groupId>
             <artifactId>ebaysdkcore</artifactId>
             <version>939</version>
@@ -132,12 +139,13 @@
       <dependency>
         <groupId>com.ebay.auth</groupId>
         <artifactId>ebay-oauth-java-client</artifactId>
-        <version>1.1.8</version>
+        <version>1.1.0</version>
     </dependency>
 
 
 
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -147,7 +155,6 @@
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
-
                 </configuration>
             </plugin>
         </plugins>
