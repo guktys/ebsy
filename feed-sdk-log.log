@@ -1,0 +1,108 @@
+21:44:17.293 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+21:44:18.627 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+21:44:25.157 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+21:44:25.403 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=2 500
+21:44:25.403 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#f^0#r^0#p^1#I^3#t^H4sIAAAAAAAAAOVYW2wUVRju9maa0mKsWqQo6wjh0uzsmZ29zI7s6vZCqNIL7FJKDZAzM2faYWdnhpkzdNeAKSWBAA/yQExqohZRi8QLapRYLxGiIZKS+qAmCvHyIEIIDxijJETx7HZbtpWUQjexifuymXP+2/ed//z/OQf0lpYt371q958VjrsKB3pBb6HDwZSDstKS2sqiwvklBSBHwDHQu6i3uK/owgoLJlSDX4ssQ9cs5EwmVM3iM4MhyjY1XoeWYvEaTCCLxyIfjTSv5j004A1Tx7qoq5SzqSFEiaIc9PpgkPV4/UEIGTKqjdmM6SFKkIN+jpMEUWIkr8SwZN6ybNSkWRhqOER5gId1Ab+L8cYYjveyvC9ABzhvJ+VsR6al6BoRoQEVzoTLZ3TNnFinDhVaFjIxMUKFmyIro62RpobGltgKd46tcJaHKIbYtiZ+1esScrZD1UZTu7Ey0nzUFkVkWZQ7POpholE+MhbMHYSfoVoQBIBk4OM8rEcCsi8vVK7UzQTEU8eRHlEkl5wR5ZGGFZy6FaOEDWELEnH2q4WYaGpwpv/W2FBVZAWZIaqxLrIh0tZGhbuQpkAJxV0xZGFXtK7DJYAAlP0cCBJEEuMJBkHWyailLMWTvNTrmqSkCbOcLTquQyRiNJkXNocXItSqtZoRGaejyZHzgDH+AkTOPbaCNu7W0muKEoQEZ+bz1uyPa2NsKoKN0biFyRMZekIUNAxFoiZPZvIwmzpJK0R1Y2zwbndPTw/dw9K62eX2AMC4O5pXR8VulIBUVja915OWcmsFl5KBIiKiaSk8ThkkliTJUxKA1kWFvYBlg94s7xPDCk8e/ddADmb3xN2Qr93hlwKcDBjR44UcQCCQj90RziaoOx0HEmDKlYBmHGFDhSJyiSTP7AQyFYlnfbKH5WTkkvxB2eUNyrJL8EnEmYwQQEgQxCD3f9kk003zKBJNhPOW53nJ8eYnvNFu2Bhp8HE9G5rXt6hrWF/Ul1yzsnZdrEura/TX15tK+7anG+JdoenuhJuCr1cVwkyM+M8nAem9PnMSVukWRtKM4EVF3UBtuqqIqdm1wKwptUETp+rsFPmOIlUlfzOCGjGMpvxV67yAvI1CcWeY89uh/oPudFNUVjppZxeqtL5FDEBDodP9hxb1hFuH5ODhTu91Mrw5E7VzCsFxIbdgp+gum+QEiUQiZ79pKymkkNOklUnTVxltlATE9FXIxUKyRXxHjjIdmSZsKl3d2Lotn8mZkCLYanz6KhKC6oxSVCHXi1mVoATpKGRFGr0X0BnctLVNpE1k6bZJrkR0a/qoHNPjSCOHD2zqqorMdmbGZTeRsDEUVDTb6m8eapECc09GxX2OC7MAF+Pn/AE/uX4GZoRNzJx9Ns+2DpLPrnkbtx/3xHeYcEHmx/Q5PgF9jg8LHQ4QAC6mFiwrLVpXXDSHskjdoS2oSYKepBUo06TkaRDbJqLjKGVAxSwsdSjffy1ezXkBGtgI5o2/AZUVMeU5D0JgwY2ZEmZudYWHBX7Gy3Be1hfoBI/cmC1m7i++9yX/8WU/nmosOXui+hBe+OvmL2pOPwMqxoUcjpICkq4FXJX8S83Q8+H+N04Pbn1YqY4/e/CVj6LfwSWd19Zfv8i2nN/er4Zcg62X4q8Ozd+7gzv18+D5U6VVh7a+S5/e+7IxfOzyPZecNYdry55sTFad2OHY+Plfg2fbd713/EjVwf6lDeW7ln41cqbnqeXD71w7Nzzw0Pl9zOILhfsqa36I4+rLx35/+8FNvU0t3P7fvtxG7nZLEpWVJ1/bfmbnzsfWf6POe/PAZ46Ysefw0T/mus9RV9BbW14MrzCPdHy8vIhlfAf+vrq2fd2nfY9/W3mf1Tm86acPllQMXV/66Jz3nXfvv3L0hRP9HaUNC68e4a+Xv757T+vFRSMis28kOve5kQeG4mcWzD8Zqt6yWB1dxn8AWLyDfpsTAAA=</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+21:44:26.352 [main] ERROR com.ebay.sdk.ApiCall - com.sun.xml.ws.client.ClientTransportException: HTTP transport error: javax.net.ssl.SSLException: Received fatal alert: protocol_version
+21:48:38.958 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+21:48:40.649 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+21:48:48.795 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+21:48:49.132 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=2 492
+21:48:49.133 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#f^0#r^0#p^1#I^3#t^H4sIAAAAAAAAAOVYbWwURRjuXa9AhaIxaJWYeFkFheb2Zu/7NtyZ6we0SL+4a4Em0sztzrZD93YvO7NtTySURovBSIiYqPEH6B9QwR8gEq1owI9EVMBoCBAlBgXFqAloKsaPOLc9yrWSUuhFm3h/Ljvzfj3PvPO+MwP6ppUuHKgd+LXMNt2+vQ/02W02YSYonVZSMbvYPrekCOQJ2Lb33dvn6C/+bhGBKTUtLkckrWsEOXtTqkZEazDCmYYm6pBgImowhYhIJTEeq18menggpg2d6pKucs666gjnDyHB74OyH0HkRZKHjWqXbSb0CBdWZJQUpABUJEXwhNk0ISaq0wiFGo1wHuDxukDAJfgSQkj0hUQhwIdBsI1ztiKDYF1jIjzgola0oqVr5IU6fqSQEGRQZoSL1sUWxxtjddU1DYlF7jxb0RwNcQqpSUZ/VekycrZC1UTjuyGWtBg3JQkRwrmjwx5GGxVjl4O5gfAtpoMKCgYZ20oIhvxhv1AQKhfrRgrS8ePIjmDZpViiItIopplrMcrYSK5BEs19NTATddXO7F+zCVWsYGREuJrK2KpYUxMX7UAahjLqciUQoa545UpXEgShEgiBMEMks7wJg5yTYUs5isd4qdI1GWcJI84GnVYiFjEay4s3jxcm1Kg1GjGFZqPJk/OAEf5AW3ZBh1fQpJ1adk1RipHgtD6vzf6INqUGTpoUjVgYO2HRE+FgOo1lbuyklYe51OklEa6T0rTodvf09PA9Xl43OtweAAT3yvplcakTpSB3WTa71wm+toILW1AkxDQJFmkmzWLpZXnKAtA6uKgPeL1hX4730WFFx47+YyAPs3v0bijU7gh7vEJIkJVwUA5KwFOIzRHN5ac7GwZKwowrBY0uRNMqlJBLYmlmppCBZdHrVzzekIJcciCsuHxhRXEl/TJzpiAEEEompXDo/7JHJprlcSQZiBYuzQuR4vVLffFOWBOr9od6VtWvaFCbvf64v7d5cUVLokOrrAlUVRm4tfvh6q6OyEQ3wlXBV6mYMZNg/gtLQHavT5aEWp1QJE8KXlzS06hJV7GUmVoL7DXkJmjQTKWZYd9xpKrsb1JQY+l0XQGLdSFAXkehuDHMBW5Q/35zuioqkk3aqYUqq0+YAZjGfLb/8JKecuuQnTvYUHav43Yraue4gjkhd9LM8B0mywkWicyOfhNWwqyQ86yVyRNXGW6UDMTEVdi1QjYlekOOrI7MMzZxRycl1+WzdzKkJE21a+IqMoLqpFIUs9vFlEpQhnQYMpaHrwW8hZsn3RJvIKKbBrsR8Y3Zk3JC70IaO3xQQ1dVZLQKky67qZRJYVJFU63+FqAWYTj6ZOTot537z3EJgVAgGAj5woFJYZOss0/7VOsgheya13H5cY9+hYkWWT+h33YA9NvesNtsIAhcQgVYMK24xVE8iyOs7vAEanJS7+UxVHhW8jRITQPxXSiThtiwT7PhU59Ll/Lef7Y/BO4YeQEqLRZm5j0HgbuuzJQIN5eXebwgIPiEkC8kBNrAPVdmHcLtjjnxV7x4p/D+TbPeO9y447e5+hDaBUDZiJDNVlLEkrWI2/xyQ++50ycfEUv3HHmH37Xf9cRz4MmvVksPfiu86TtzoVvrOVR7tKztyw1b2l4Y2vrS9+v27/3Izg3+UVF26Gv6KN347q1LznzYPG/rj4Hd5/HFdZeMNWXbBj5rKS9/a/3vP7Tviy7c2drHz/GXVdQs694faTtc7pAzgfmfPHPh5NCM491bbtk4Y2+Fw35u7tvHTqw+OO/E0kjGu3lT1ZnBs2u3wo9f/XTFN6/vOVv8wfL7ag/aj78WvX/H0aeHFrQ8/vOq48+XPrZ7297T+zaVV98N/tp8bP3JJS9eLClac2D+4OzpGxK2U4Nrf7nzaE0VTj7w51r3F77bGjYcaXz2qfiegabz7f0V69KKo/2nQ8PL+DcO0whImRMAAA==</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+21:48:50.178 [main] ERROR com.ebay.sdk.ApiCall - com.sun.xml.ws.client.ClientTransportException: HTTP transport error: javax.net.ssl.SSLException: Received fatal alert: protocol_version
+21:52:48.564 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+21:52:49.914 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+21:52:56.481 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+21:52:56.676 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=2 500
+21:52:56.676 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#r^0#I^3#p^1#f^0#t^H4sIAAAAAAAAAOVYbWwURRju9csULCjBL6LxskDkw9ub3b277m24k+tXqKHtwR0tJUHY2529Lt3bPXZm2ztIsSmxatSGH6IxEC0Eo0LEGCMJ0UYlRgIpv8BEKkSCpClRI0ZBRQPObY9yraQUeolNvD+XnXm/nmfeed+ZAV2lZUt6VvT8Xu64p7CvC3QVOhzMTFBWWrJ0VlHhvJICkCPg6Ota0FXcXTS8DIkJLSmshihp6Ag6UwlNR4I9GKAsUxcMEalI0MUERAKWhEiofqXA0kBImgY2JEOjnHXVAarCJ/GMAj1+jmUYSfSTUf2GzagRoGIy6+Fkxgt8wMdJEk/mEbJgnY6wqOMAxQKWcwGfi/FEGV7wsgLD0byfW0c5m6CJVEMnIjSggna4gq1r5sQ6cagiQtDExAgVrAvVRhpDddU1DdFl7hxbwSwPESxiC439qjJk6GwSNQtO7AbZ0kLEkiSIEOUOjngYa1QI3QjmLsK3qfYxsofl/X6FBZIis0peqKw1zISIJ44jM6LKLsUWFaCOVZy+HaOEjdgmKOHsVwMxUVftzPytskRNVVRoBqiaylBLKBymgnGoq6IM21xRiLArUrnWFQMVouLjgZ8gkhnW7wdZJyOWshSP81Jl6LKaIQw5GwxcCUnEcDwvnhxeiFCj3miGFJyJJkeOBTf4433rMgs6soIWbtUzawoThASn/Xl79ke1MTbVmIXhqIXxEzY9AUpMJlWZGj9p52E2dVIoQLVinBTc7o6ODrqDow0z7mYBYNxr61dGpFaYEKmsbGavp5B6ewWXakORINFEqoDTSRJLiuQpCUCPU0EP4Di/J8v72LCC40f/NZCD2T12N+Rrd0gxALwevyR7PR5fRYU/H7sjmE1QdyYOGBPTroRotkGc1EQJuiSSZ1YCmqoscF6F5XgFumSfX3F5/Iriinll4kyBEEAYi0l+/v+ySSab5hEomRDnLc/zkuP1T3sirWJNqNrLd7TUNzdoqzhvxJtaVbt0TTSuV9b4qqpMtal9S3VbPDDZnXBL8FWaSpiJEv/5JCCz16dOwgoDYShPCV5EMpIwbGiqlJ5eC8yZclg0cbrSSpPvCNQ08jclqKFksi5/1TovIO+gUNwd5vx2qP+gO90SFcok7fRCldFHxICYVOlM/6ElI+E2RHLwcGf2OhneYEftnEBwVMgds9J03CI5QSKRydlv0koqKeQ0aWXy5FVGGiUBMXkVcrGQLQnflSO7I9OETTXeitEd+UxNhZSYpbVNXkWGojalFFXJ9WJaJShBOgJZlUfuBbSNm0btEm1CZFgmuRLRjZmjctRogzo5fGDT0DRoNjFTLruJhIXFmAanW/3NQy1SxdyTUXG3Y3ga4GJ8vK/Cx1dw3JSwSfbZZ8N06yD57Jp3cPtxj32HCRbYP6bb0Q+6HYcLHQ5QAVzMUrC4tGhNcdG9FCJ1h0aiLseMFK2KCk1Kni5iy4R0G0wnRdUsLHWog6ekP3JegPrWg4dH34DKipiZOQ9C4NGbMyXM7IfKWQ74GA/De1mGWwfm35wtZh4snjt0tviNV3b89UvPptnnVvS/dcx54es9oHxUyOEoKSDpWoCOz9+9IBwsP7X+1Wsl4Tkt6HRZuP1Y77udn5+sfGRtwZGf9ML4d0Uz5+z/YAb/7Qux9xeZHwpzjr5+8XDT0NWvTO65vuD5Cz2p8k3xM3z4wCczht7ZLJ6973rLlb1nVv8Q33tiy+NmYfra/bXBaEnXXGVw1kLKefDL9nMnX05/OvujWYvWbPP+9szVo58N7Prm+cVPvr1l4LWOnftOXB9cYvXuufzi5c1DPUe+P9g7OOPPQ7U/V2/dHr/yxbJnm9e/t5FuXv7xlYvD+1MDbx462h6od+zTWi71PrVwXn/npU49tbO684BwvFk7bXTtfuDX61uXnx/u7g8+UTY4sKv7pR//ZiDc/lifvNHaxp8eWcZ/APhGj0CbEwAA</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+21:52:57.753 [main] ERROR com.ebay.sdk.ApiCall - com.sun.xml.ws.client.ClientTransportException: HTTP transport error: javax.net.ssl.SSLException: Received fatal alert: protocol_version
+21:55:03.865 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+21:55:05.165 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+21:55:12.561 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+21:55:12.780 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=3 092
+21:55:12.781 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#p^3#f^0#I^3#r^0#t^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</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+21:55:13.759 [main] ERROR com.ebay.sdk.ApiCall - com.sun.xml.ws.client.ClientTransportException: HTTP transport error: javax.net.ssl.SSLException: Received fatal alert: protocol_version
+22:03:01.537 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+22:03:02.814 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+22:03:09.407 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/oauth/api_scope?siteid=0&callname=GeteBayOfficialTime&client=java
+22:03:09.599 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=2 492
+22:03:09.600 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#p^1#f^0#I^3#r^0#t^H4sIAAAAAAAAAOVYa2wURRzv9aUNVhJ5VIXAuRoD1Nubfdxr5c5cr0Uq9MVdy8Mozu7O9tbb2z13Z3t3otA0BgX8YKLBxIipSBQ/GPHRoCQYAd8YJaZiMIokYqwfeEgMGDHBuetRrpWUQi+xifflsjP/1+83//n/Zwb0Vtcs2rh047lax3Xl/b2gt9zhYKaBmuqq+hsrym+tKgNFAo7+3jt6K/sqhhZbMKmlhBXIShm6hZyZpKZbQn4wSNmmLhjQUi1Bh0lkCVgSouGW5QJLAyFlGtiQDI1yNjcGKeQFvMgzDCcrgOP9fjKqX7QZM4KUl+NYRVZkP5IlBfh5Mm9ZNmrWLQx1HKRYwHIu4HUxfIwJCIAVWJ72+P1rKGcXMi3V0IkIDahQPlwhr2sWxTp+qNCykImJESrUHF4SbQs3Nza1xha7i2yFCjxEMcS2NforYsjI2QU1G43vxspLC1FbkpBlUe7QsIfRRoXwxWCuIfw81X7oUbwS4n28zLKIKQ2VSwwzCfH4ceRGVNml5EUFpGMVZ6/EKGFDfBhJuPDVSkw0Nzpzfx021FRFRWaQamoIrw63t1OhbqSrUEYJVwxZ2BVtWOUSgQ8qXj8IEEQywwYCoOBk2FKB4jFeIoYuqznCLGergRsQiRiN5sUveIp4IUJtepsZVnAumiI5lhnhD6zJLejwCto4rufWFCUJCc7855XZH9HG2FRFG6MRC2Mn8vQEKZhKqTI1djKfh4XUyVhBKo5xSnC70+k0neZow+x2swAw7lUty6NSHCUhVZDN7fWMpV5ZwaXmoUiIaFqqgLMpEkuG5CkJQO+mQjzguABf4H10WKGxo/8aKMLsHr0bSrU7JJHhZUZi/V7OB/0+byl2R6iQoO5cHEiEWVcSmgmEUxqUkEsieWYnkanKAudRWM6vIJfsDSguPqAoLtEjE2cKQgAhUZQC/v/LJplomkeRZCJcsjwvSY633MdH47Ap3Ojxp1e3rGzVOjhP1JPpWFLfGevWG5q8kYipdvU82pjoDk50J1wWfERTCTMx4r+UBOT2+uRJWGpYGMmTgheVjBRqNzRVyk6tBeZMuR2aONtgZ8l3FGka+ZsU1HAq1Vy6al0SkFdRKK4Nc2k71H/QnS6Lysol7dRCldO3iAGYUulc/6ElI+k2IDl4uHN7nQyvzUftHEdwRMgt2lm62yY5QSKRydlvwkoqKeQ0aWXyxFWGGyUBMXEVcrGQbQlfk6N8R6YJm2p3HFtX5TMzGVJEW0tMXEVGUJtUiqrkejGlEpQgHYasysP3AjqPm7Z6JNpElmGb5EpEt+WOyjEjgXRy+MCmoWnI7GImXXaTSRtDUUNTrf6WoBapsPhkVNnnGJoCuBiv3+vzBjh+ctik/Nln7VTrIKXsmldx+3GPfocJleV/TJ9jL+hzvF/ucAAfcDH1YGF1RWdlxQ2UReoObUFdFo0MrUKFJiVPh9g2EZ1A2RRUzfJqh/r9oPRn0QtQ/wPg5pE3oJoKZlrRgxCYe2mmipleV8tywMvwTACwLL8G3H5ptpKZXTnzVMXAme0tMvP6X8nW+BOxH/Yv2xcHtSNCDkdVGUnXsjnx649sfmvlgqVbVbD+73ee78xsuftVj/DsI5/u3f8YgOn++dv6hxKDini4CW9yPHahPvISHki9+Nyubw7Hzi/r5efcaacj5ob1yszXNtf0rDt64LbH39i1/pa6P+b27f7c+9u5Z45+IX698MTv+wervt19UhnaueDCYRSUN5y968CmQXj6zCln59MDO6bvSCc/2Jnc/t6TNdLm+Xsu9P6ytWXRuYHMoXXnZ6jfoQo2cfL42e3zuA2BOdHZxz9rq/PNy7Q9dNNB34M/vfLju10d2fhXaNvbQ/tq9YOnP6rrur//qROHln358wvHZy0/8nL243v2RBYPgp4PpTe1o3O1Y1t+nXFs1smh0yvu/WTR8DL+A2hhgGObEwAA</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+22:03:10.536 [main] ERROR com.ebay.sdk.ApiCall - com.sun.xml.ws.client.ClientTransportException: HTTP transport error: javax.net.ssl.SSLException: Received fatal alert: protocol_version
+22:04:17.196 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - loading wsdl : jar:file:/D:/TEST_API/untitled/LIBS/ebaysdkcore.jar!/eBaySvc.wsdl
+22:04:18.570 [main] INFO  c.e.s.SdkAPIInterfaceServiceLocator - wsdl loaded and service initialized.
+22:04:25.492 [main] INFO  com.ebay.sdk.ApiCall - Sending SOAP request to: https://api.ebay.com/wsapi?siteid=0&callname=GeteBayOfficialTime&client=java
+22:04:25.707 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - Request Message: Length=2 500
+22:04:25.707 [main] INFO  c.e.s.h.SOAPMessageLoggingHandler - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+ <S:Header>
+  <ebl:RequesterCredentials xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:mustUnderstand="0">
+   <ebl:eBayAuthToken>v^1.1#i^1#r^0#I^3#p^1#f^0#t^H4sIAAAAAAAAAOVYe2wURRjv9draitVEVBA1uaz8geDtze5e77H0Lrm+7Jk+udJSIpDZ3dm7pXu75+4svUONTUOARJtoVBKBhPIHokRjE8SAohIbH0FFEwggaEJCokRAgxLlEYNz22u5VlIKvcQm3j+Xnflev998830zA/rKKhaub1z/V6XjjuLBPtBX7HAws0BFWemiu53F80qLQJ6AY7Bvfl9Jv/NMtQmTaopfgsyUrpnIlU6qmsnbgyHKMjReh6Zi8hpMIpPHIh+LNDfxLA34lKFjXdRVyhWtC1F+UWJliNiAF0AuEOTIqDZqs0MPUYLMQa/IIsD6gCz7BDJvmhaKaiaGGg5RLGA5N/C5GW8HE+QBx3tZmg16l1OuTmSYiq4RERpQYTtc3tY18mKdPFRomsjAxAgVjkYaYq2RaF19S0e1J89WOMdDDENsmeO/anUJuTqhaqHJ3Zi2NB+zRBGZJuUJj3gYb5SPjAZzG+HbVEPWD/yCHGQIl96g6C8IlQ26kYR48jiyI4rklm1RHmlYwZmbMUrYEFYjEee+WoiJaJ0r+9duQVWRFWSEqPqaSHekrY0Kx5GmQAn1uDuQid2xmmVuAfih7AuAIEEkMWwwCHJORizlKJ7gpVbXJCVLmOlq0XENIhGj8bwE+Ko8XohQq9ZqRGScjSZPjmVG+eOInGd0BS2c0LJripKEBJf9eXP2x7QxNhTBwmjMwsQJmx6yzqmUIlETJ+08zKVO2gxRCYxTvMfT29tL93K0bsQ9LACMZ1lzU0xMoCSkcrLZvZ42lZsruBUbioiIpqnwOJMisaRJnpIAtDgV9gKOC3pzvI8PKzxx9F8DeZg943dDoXYHBzlWrgI+nyCLfhAAhdgd4VyCerJxIAFm3Elo9CCcUqGI3CLJMyuJDEXiuSqZ5QIycku+oOz2BmXZLVRJxJmMEEBIEMRg4P+ySaaa5jEkGggXLM8LkuPNT3pjCVgfqasK9HY3d7Wo7VxVrCrd3rBoaUdcq6n31dYaSueatXU98dBUd8INwdeqCmGmg/gvJAHZvT59Ehp1EyNpWvBiop5CbbqqiJmZtcCcIbVBA2dqrAz5jiFVJX/TghpJpaKFq9YFAXkLheL2MBe2Q/0H3emGqMxs0s4sVFl9kxiAKYXO9h9a1JMeHZKDhye718nwKjtq1ySCY0IewcrQcYvkBIlEIme/KSsppJDTpJVJU1cZaZQExNRVyMVCskR8W47sjkwTNpV4Apu35DM9HVIES+2ZuoqEoDqtFFXI9WJGJShBOgJZkUbuBbSNmzbXiLSBTN0yyJWIbs0elTv0HqSRwwc2dFVFRicz7bKbTFoYCiqaafW3ALVIgfkno5J+x5kZgIvxBXx+X9DLstPCJtpnn1UzrYMUsmvewu3HM/4dJlxk/5h+x0eg37Gv2OEAfuBmFoHHypxLS5x3USapO7QJNUnQ07QCZZqUPA1iy0B0D8qkoGIUlzmUE0fES3kvQIMrwNyxN6AKJzMr70EIPHx9ppS5Z04lywEf42WCgPOyy8Gj12dLmAdK7tN+/e3C1heYR7Z8+NMKOHB15bbDW3aAyjEhh6O0iKRr0YLZ4cDxJUY/LNr25p3xxN8NF5pKjx3s//7w5ZY/jV9+Pnt49fB3XZXw6w2Rmot65dCZgYWesmOL3+gsX7x8y9GH7n27eWjziReqXzpa3nV6+2frVi87V76vus45dPby9vp5c4WBjeXdj6NVf1yL7Nz2brRu7uufHtq/rvu58IbZ3/admqX6Bza7nef2PkN3VhpftZ5HDZEfL53/8veryoPvtKjQOXzy4Pvf6G+9vHvnhfKu+f3nn7p4v+PFa+mjh/as1NdU7Ajvevb42lMR12Dq6TlDr23svLJ1uPbKrpObQkfmNXzww+nu4QMLdof3tH3cvrDxk88TW5ue13te2dzodm6MHviC3hR5Yu+r7+1vG1nGfwCBSo4qmxMAAA==</ebl:eBayAuthToken>
+  </ebl:RequesterCredentials>
+ </S:Header>
+ <S:Body>
+  <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <Version>1131</Version>
+  </GeteBayOfficialTimeRequest>
+ </S:Body>
+</S:Envelope>
+
+22:04:26.611 [main] ERROR com.ebay.sdk.ApiCall - com.sun.xml.ws.client.ClientTransportException: HTTP transport error: javax.net.ssl.SSLException: Received fatal alert: protocol_version
